@@ -1,0 +1,111 @@
+.container{
+    background: rgba(0, 0, 0, 0.40);
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    .container_list-1__button{
+        background: var(--purple, #6A369C);
+        display: flex;
+        width: 211px;
+        height: 97px;
+        padding: 10px 15px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border: none;
+        color: var(--white, #F3F3F3);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .container_list{
+        display: flex;
+        align-items: center;
+        .container_list_one{
+            display: flex;
+            justify-content: space-evenly;
+            width: 450px;
+        }
+        .container_list__number{
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+        }
+    }
+    .container_list-1{
+        display: flex;
+        text-decoration: none;
+        width: 800px;
+
+    }
+}
+
+.svg2{
+    margin-left: -5px;
+    margin-bottom: -5px;
+    padding: 0;
+}
+.has{
+    display: none;
+    background-color: var(--white, #F3F3F3);
+    border: 2px solid #f3f3f3;
+    width: 250px;
+    padding: 20px;
+    margin-left: -350px;
+    margin-top: 658px;
+    color: var(--black, #000);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.has1{
+    display: none;
+    background-color: var(--white, #F3F3F3);
+    border: 2px solid #f3f3f3;
+    width: auto;
+    padding: 0;
+    margin-left: -250px;
+    margin-top: 100px;
+    color: var(--black, #000);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container_list-1_div1_sevis1:hover + .has1{
+    display: inline-block;
+    padding: 0;
+}
+.container_list-1_div1_sevis1:hover{
+    width: 200px;
+    padding: 0;
+    margin-top: 460px;
+}
+
+.container_list-1_div1_sevis:hover + .has{
+        display: block;
+        padding: 0;
+        margin-top: 370px;
+        margin-left: -270px;
+}
+
+.container_list-1_div1_sevis:hover{
+    margin: 0;
+}
+
+.container_list-1_div1{
+    display: block;
+    width: 100px;
+}
+
+.container_list-1__lines{
+    margin-left: 420px;
+}

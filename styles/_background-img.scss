@@ -1,0 +1,35 @@
+.background-img{
+    background-image: url(/images/img.png);
+    width: 1519px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    .background-img_div{
+        display: block;
+        width: 700px;
+        margin-left: 100px;
+        .background-img_div__h1{
+            color: var(--white, #F3F3F3);
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .background-img_div__p{
+            color: var(--white, #F3F3F3);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            margin: 20px 0;
+        }
+        .background-img_div__p1{
+            color: var(--white, #F3F3F3);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 130%; 
+        }
+    }
+}

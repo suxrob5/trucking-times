@@ -1,0 +1,107 @@
+.end{
+    width: 1519px;
+    .end_link{
+        width: 1519px;
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .end_link_social-networks{
+        &__h1{
+            color: var(--white, #F3F3F3);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 130%; 
+            margin-bottom: 20px;
+        }
+    }
+    .end_link_address{
+        &__p{
+            color: var(--lightgray, #AFAFAF);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+        }
+        &__address{
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            margin: 15px 0;
+        }
+    }
+    .end_link_email{
+        &__address{
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            margin: 15px 0;
+            line-height: 130%; 
+        }
+        &__p{
+            color: var(--lightgray, #AFAFAF);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+        }
+    }
+    .end_link_phone{
+        &__p{
+            color: var(--lightgray, #AFAFAF);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+        }
+        &__address{
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; 
+            margin: 15px 0;
+        }
+    }
+    .end_link_work{
+        &__p{
+            color: var(--lightgray, #AFAFAF);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; /* 23.4px */
+        }
+        &__p1{
+            color: var(--white, #F3F3F3);
+            font-size: 18px;
+            font-style: normal;
+            margin: 15px 0;
+            font-weight: 500;
+            line-height: 130%; /* 23.4px */
+        }
+    }
+}
+
+.end{
+    .end_box{
+        width: 1519px;
+        height: 101px;
+        display: flex;
+        justify-content: space-evenly;
+        background: var(--bg-light, #2e343a);
+        .end_box_div{
+            &__h1{
+                color: var(--lightgray, #AFAFAF);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+}

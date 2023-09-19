@@ -1,0 +1,24 @@
+@import"./container";
+@import"./normalize";
+@import"./header";
+@import"./block";
+@import"./container-2";
+@import"./rectangle";
+@import"./background-img";
+@import"./_content";
+@import"./_end";
+@import "./media.scss";
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
